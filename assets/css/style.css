@@ -8,6 +8,7 @@
     box-sizing: border-box;
     font-family: "DM Sans", sans-serif;
 }
+
 /* section{
     display: flex;
     flex-direction: column;
@@ -15,9 +16,20 @@
     justify-content: center;
 
 } */
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
 
 .heading-style {
-    
+
     font-family: DM Sans;
     font-weight: 700;
     font-size: 42px;
@@ -29,7 +41,7 @@
 }
 
 .plan-style {
-    
+
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
@@ -39,7 +51,7 @@
 }
 
 .sub-head-style {
-   
+
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -50,22 +62,26 @@
 
 table {
     width: 1170px;
-    /* border-collapse: collapse; */
     border-spacing: 0;
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* border: 2px solid #EBEAED; */
-
 }
 
+/* table{
+    width: 1170px;
+   
+} */
+.w-100{
+    width: 100%;
+}
+.overflow{
+    overflow-x:auto;
+}
 th,
 tr,
 td {
     border: 2px solid #EBEAED;
 }
-
 .head-grey {
-   
+
     font-weight: 700;
     font-size: 14px;
     line-height: 26px;
@@ -82,7 +98,7 @@ td {
 
 
 .data {
- 
+
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -90,6 +106,7 @@ td {
     text-align: center;
     color: #1E0E62;
 }
+
 .grey-checked {
     width: 20px;
     height: 20px;
@@ -118,7 +135,7 @@ tr {
 }
 
 .button-style {
-   
+
     font-weight: 500;
     font-size: 18px;
     line-height: 26px;
@@ -128,6 +145,7 @@ tr {
     color: #1E0E62;
     background-color: #FFFFFF;
 }
+
 button {
     width: 230px;
     height: 50px;
@@ -142,8 +160,9 @@ button:hover {
     color: #FFFFFF;
     border: none;
 }
+
 .number {
-    
+
     font-weight: 700;
     font-size: 58px;
     line-height: 70px;
@@ -155,6 +174,7 @@ button:hover {
     margin-left: auto;
     margin-right: auto;
 }
+
 .h-140 {
     height: 140px;
 }
@@ -170,16 +190,18 @@ button:hover {
 .bg-grey {
     background: #F5F5F6;
 }
+
 .dollar-icon {
-   
+
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-     text-align: center; 
+    text-align: center;
     color: #1E0E62;
     position: absolute;
-    left: -14px; 
+    left: -14px;
 }
+
 table tr:first-child th:first-child {
     border-top-left-radius: 10px;
 }
@@ -191,24 +213,28 @@ table tr:first-child th:last-child {
 table tr:last-child td:first-child {
     border-bottom-left-radius: 10px;
 }
-table tr:last-child td:last-child {
-    border-bottom-right-radius:10px;
-}
-.border-top-left-0{
-    border-top:0;
-    border-left:0;
-}
-.border-top-0{
-    border-top:0;
-}
-.border-top-right-0{
-    border-top: 0;
-    border-right:0;
-}
-/* @media (max-width:1170) {
-   .overflow-scroll{
-    overflow: scroll;
-   }
 
-    
-} */
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.border-top-left-0 {
+    border-top: 0;
+    border-left: 0;
+}
+
+.border-top-0 {
+    border-top: 0;
+}
+
+.border-top-right-0 {
+    border-top: 0;
+    border-right: 0;
+}
+
+.white-nowrap{
+    white-space: nowrap;
+}
+ /* table tr:first-child td:first-child{
+    white-space: nowrap;
+ } */
